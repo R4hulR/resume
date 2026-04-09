@@ -2,131 +2,108 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: 吳健雄
-  given: Shiung Wu
-  family: Chien
-  pronunciation: Chien Shiung Wu
-  pronouns: she/her
-status:
-  icon: "☕️"
-role: Director of Cloud Infrastructure
+  display: Rahul Ray
+  given: Rahul
+  family: Ray
+role: Software Engineer
 bio: >
-  I am currently Director of Cloud Infrastructure at GenCoin where I am leading
-  teams on edge computing, deep sea data center architecture, and hivemind optimization.
+  Software Engineer at ICAR-IASRI, New Delhi, working on backend systems for large-scale genomic data platforms.
+  Specializing in Python, FastAPI, and distributed systems with a focus on building production-grade APIs,
+  AI/RAG pipelines, and cloud-native architectures on AWS.
 affiliations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: ICAR - IASRI, New Delhi
+    url: https://iasri.icar.gov.in/
 links:
   - icon: at-symbol
-    url: mailto:your-email@example.com
+    url: mailto:Rahulrayconnect@gmail.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/MakeOwnable
-  - icon: brands/github
-    url: https://github.com/gcushen
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.linkedin.com/in/r4hulray
+  - icon: brands/github
+    url: https://github.com/R4hulR
 education:
-  - degree: PhD Artificial Intelligence
-    institution: Stanford University
-    start: 2016-01-01
-    end: 2020-12-31
+  - degree: B.Tech, Computer Science and Engineering
+    institution: Assam University
+    start: 2019-08-01
+    end: 2023-06-30
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - degree: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - degree: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      CGPA: 7.43 / 10
 experience:
-  - role: Director of Cloud Infrastructure
-    org: GenCoin
-    start: 2021-01-01
+  - role: Software Engineer (Young Professional-II, IT)
+    org: ICAR - Indian Agricultural Statistics Research Institute (IASRI)
+    org_url: https://iasri.icar.gov.in/
+    location: New Delhi, India
+    start: 2024-12-01
     summary: |
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - role: Backend Software Engineer
-    org: X
-    start: 2016-01-01
-    end: 2020-12-31
+      - Architected backend services for ASHOKA HPC Hub, designing RESTful APIs managing access to a 1.5 PB genomic data lake for the National Agricultural Bioinformatics Grid (NABG).
+      - Led migration of data processing modules from Laravel to asynchronous FastAPI microservices, significantly improving throughput for I/O-heavy tasks.
+      - Optimized MySQL schemas with composite indexing strategies, eliminating full-table scans and reducing query latency for multi-terabyte datasets.
+      - Implemented JWT authentication and RBAC for a secure API layer, enabling mobile-to-cloud data synchronization for field researchers.
+  - role: Independent Backend Engineering Researcher
+    org: Self-Directed
+    location: Remote
+    start: 2023-08-01
+    end: 2024-11-30
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - **Enterprise RAG System:** Built a production-ready Q&A API using FastAPI and Docker with asynchronous document ingestion into ChromaDB; deployed on AWS (EC2, S3) with Nginx reverse proxy.
+      - **Scalargrad Engine:** Implemented a custom Python autograd engine from first principles using Directed Acyclic Graphs (DAGs) for gradient backpropagation; validated correctness against PyTorch.
+  - role: Android Development Intern
+    org: IIT BHU
+    location: India
+    start: 2022-06-01
+    end: 2022-07-31
+    summary: |
+      - Built a real-time news aggregation app in Java using Retrofit; improved performance and UX by integrating Picasso for asynchronous image loading and caching.
 skills:
-  - name: Technical Skills
+  - name: Languages & Frameworks
     items:
       - label: Python
-        level: 4
-      - label: RStudio
         level: 5
-      - label: PyTorch
-        level: 2
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - label: Hiking
+      - label: FastAPI
+        level: 5
+      - label: SQL
+        level: 4
+      - label: Docker
+        level: 4
+      - label: LangChain
         level: 3
-      - label: Cats
-        level: 5
-      - label: Photography
+      - label: Java
+        level: 3
+  - name: Cloud & AI
+    color: '#0ea5e9'
+    color_border: '#38bdf8'
+    items:
+      - label: AWS (EC2, S3, IAM)
         level: 4
-languages:
-  - name: English
-    level: 5
-  - name: Chinese
-    level: 4
-  - name: Portuguese
-    level: 1
+      - label: PostgreSQL / MySQL
+        level: 4
+      - label: ChromaDB (Vector)
+        level: 4
+      - label: Redis
+        level: 3
+      - label: RAG Systems
+        level: 4
+      - label: CI/CD
+        level: 3
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: brands/coursera
+  - title: Gossip Protocol – Peer-to-Peer Failure Detector
+    url: https://github.com/R4hulR/gossip-protocol
+    date: '2025-04-01'
+    awarder: Personal Project
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: brands/edx
+      Built a gossip-based distributed failure detector with epidemic propagation over UDP, decentralised membership tracking, eventual consistency via heartbeat merge, and sub-15s failure detection across N nodes converging in O(log N) rounds.
+      **Tech:** Python, UDP Sockets, Threading, Distributed Systems
+  - title: Enterprise RAG System for Document Intelligence
+    url: https://github.com/R4hulR/RAG
+    date: '2024-07-01'
+    awarder: Personal Project
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: brands/datacamp
+      Production-ready RAG API for semantic search over PDFs using Google's Gemma LLM, with async ingestion into ChromaDB and deployment on AWS EC2 via Docker Compose + Nginx.
+      **Tech:** FastAPI, Docker, AWS, ChromaDB, LangChain
+  - title: Scalargrad – Autograd Engine & Neural Network Library
+    url: https://github.com/R4hulR/Scalargrad
+    date: '2024-01-01'
+    awarder: Personal Project
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Compact scalar-based autograd engine and neural network library built from first principles, inspired by Karpathy's micrograd. Implements backpropagation via DAGs and validated against PyTorch.
+      **Tech:** Python, NumPy

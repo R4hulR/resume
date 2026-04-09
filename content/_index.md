@@ -1,5 +1,5 @@
 ---
-title: 'Home'
+title: 'Rahul Ray – Software Engineer'
 date: 2023-10-24
 type: landing
 
@@ -42,14 +42,11 @@ sections:
       is_education_first: false
   - block: skills
     content:
-      title: Skills & Hobbies
+      title: Skills
       username: me
   - block: awards
     content:
-      title: Awards
+      title: Projects
       username: me
-  - block: languages
-    content:
-      title: Languages
-      username: me
+
 ---
