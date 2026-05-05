@@ -86,6 +86,13 @@ skills:
       - label: CI/CD
         level: 3
 awards:
+  - title: Raft Consensus Algorithm
+    url: https://github.com/R4hulR/raft-consensus
+    date: '2025-05-01'
+    awarder: Personal Project
+    summary: |
+      Implemented Raft consensus from scratch — leader election with randomized timeouts, log replication with majority quorum commits, and automatic failover on leader crash. Built a TCP/HTTP transport layer using FastAPI for inter-node communication and a live browser visualization showing node states, term numbers, and state machine in real time.
+      **Tech:** Python, FastAPI, Distributed Systems
   - title: Gossip Protocol – Peer-to-Peer Failure Detector
     url: https://github.com/R4hulR/gossip-protocol
     date: '2025-04-01'
