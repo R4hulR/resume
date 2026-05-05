@@ -1,9 +1,14 @@
-/* Center skill labels within each column */
+/* Center skill category titles and labels within each column */
 .skills-content {
   text-align: center;
 }
 
 .skills-name {
   display: block;
+  text-align: center;
+}
+
+/* Center the "Languages & Frameworks" / "Cloud & AI" headings */
+.grid > div > div.mb-5 {
   text-align: center;
 }
