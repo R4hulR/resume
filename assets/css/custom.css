@@ -1,0 +1,9 @@
+/* Center skill labels within each column */
+.skills-content {
+  text-align: center;
+}
+
+.skills-name {
+  display: block;
+  text-align: center;
+}
