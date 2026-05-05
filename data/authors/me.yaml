@@ -58,33 +58,19 @@ skills:
   - name: Languages & Frameworks
     items:
       - label: Python
-        level: 5
       - label: FastAPI
-        level: 5
       - label: SQL
-        level: 4
       - label: Docker
-        level: 4
       - label: LangChain
-        level: 3
       - label: Java
-        level: 3
   - name: Cloud & AI
-    color: '#0ea5e9'
-    color_border: '#38bdf8'
     items:
       - label: AWS (EC2, S3, IAM)
-        level: 4
       - label: PostgreSQL / MySQL
-        level: 4
       - label: ChromaDB (Vector)
-        level: 4
       - label: Redis
-        level: 3
       - label: RAG Systems
-        level: 4
       - label: CI/CD
-        level: 3
 awards:
   - title: Raft Consensus Algorithm
     url: https://github.com/R4hulR/raft-consensus
